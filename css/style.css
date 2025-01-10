@@ -1,0 +1,257 @@
+/* Font Family */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;600;700&display=swap');
+
+/* Reset Code */
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+body{
+    font-size: 1.6rem;
+    font-family: "Fira Sans", serif;
+    text-rendering: optimizeLegibility;
+    line-height: normal;
+    background: #F5F5F5;
+}
+a{
+    text-decoration: none;
+    color: #0E0E0E;
+}
+ul li{
+	list-style-type: none;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+/* COMMON Code */
+.container{
+    max-width: 128rem;
+    width: 96%;
+    margin: 0 auto;
+}
+section{
+    padding-top: 8rem;
+}
+P{
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #0E0E0EB3;
+}
+.primary_btn{
+    background: #006A50;
+    font-size: 1.8rem;
+    padding: 1.7rem 3.4rem;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+    margin-top: 2.4rem;
+    border: none;
+    border-radius: .8rem;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+    -webkit-border-radius: .8rem;
+    -moz-border-radius: .8rem;
+    -ms-border-radius: .8rem;
+    -o-border-radius: .8rem;
+}
+.primary_btn:hover{
+    background: #fff;
+    color: #006A50;
+}
+.title{
+    font-size: 3.2rem;
+    font-weight: 700;
+    color: #0E0E0E;
+}
+.title_bold{
+    font-size: 4rem;
+    font-weight: 700;
+    color: #0E0E0E;
+}
+.sub_title{
+    margin-top: 2.4rem;
+    line-height: 2.4rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #0E0E0EB3;
+}
+/* header Section */
+    /* navbar */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 12vh;
+}
+.nav_logo > h2{
+    font-size: 3.2rem;
+    font-weight: 700;
+    color: #0E0E0E;
+}
+.sign_btn{
+    color: #006A50;
+    font-size: 1.8rem;
+    font-weight: 600;
+    padding: 1.5rem 3rem;
+    border: .1rem solid #006A50;
+    border-radius: .8rem;
+    -webkit-border-radius: .8rem;
+    -moz-border-radius: .8rem;
+    -ms-border-radius: .8rem;
+    -o-border-radius: .8rem;
+    background: #fff;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+}
+.sign_btn:hover{
+    background-color: #006A50;
+    color: #fff;
+}
+    /* hero_banner */
+.hero_banner{
+    margin-top: 2rem;
+    background: #C6E4D6;
+    display: flex;
+    gap: 6.4rem;
+    padding: 8rem 10rem;
+    border-radius: 2.4rem;
+    -webkit-border-radius: 2.4rem;
+    -moz-border-radius: 2.4rem;
+    -ms-border-radius: 2.4rem;
+    -o-border-radius: 2.4rem;
+}    
+.banner_content > h4{
+    font-size: 2.4rem;
+    font-weight: 500;
+    color: #0E0E0E80;
+}
+.banner_content > h1{
+    margin-top: 1.6rem;
+    font-size: 5.6rem;
+    font-weight: 700;
+    color: #0E0E0E;
+    width: 62.2rem;
+}
+
+/* Pillars Section */
+.pillars_items{
+    margin-top: 3.2rem;
+    display: flex;
+    gap: 2.4rem;
+}
+.pillars_item{
+    background: #fff;
+    padding: 2.4rem;
+    border-radius: 1.6rem;
+    -webkit-border-radius: 1.6rem;
+    -moz-border-radius: 1.6rem;
+    -ms-border-radius: 1.6rem;
+    -o-border-radius: 1.6rem;
+}
+.pillars_item > img{
+    width: 6.4rem;
+    height: 6.4rem;
+}
+.pillars_item > h3{
+    margin-top: 2.4rem;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #0E0E0ECC;
+}
+.pillars_item > p{
+    margin-top: 1.2rem;
+}
+
+/* Vision Section */
+.vision_items{
+    margin-top: 3.2rem;
+    display: flex;
+    gap: 2.4rem;
+}
+.vision_item1{
+    background: #5490F533;
+}
+.vision_item2{
+    background: #C6E4D6;
+}
+.vision_item3{
+    background: #F7EBCF;
+}
+.vision_item{
+    padding: 3.2rem;
+    border-radius: 1.6rem;
+    -webkit-border-radius: 1.6rem;
+    -moz-border-radius: 1.6rem;
+    -ms-border-radius: 1.6rem;
+    -o-border-radius: 1.6rem;
+}
+.vision_item > img{
+    width: 6.4rem;
+    height: 6.4rem;
+}
+.vision_item > h3{
+    margin-top: 2.4rem;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #0E0E0ECC;
+}
+.vision_item > p{
+    margin-top: 1.2rem;
+}
+.vision_btn{
+    text-transform: capitalize;
+    margin-top: 2.4rem;
+    padding: 1.1rem 2rem;
+    font-size: 1.6rem;
+    font-weight: 600;
+    border: none;
+    border-radius: .8rem;
+    -webkit-border-radius: .8rem;
+    -moz-border-radius: .8rem;
+    -ms-border-radius: .8rem;
+    -o-border-radius: .8rem;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+}
+.vision_btn1{
+    background: #5490F5;
+    color: #fff;
+}
+.vision_btn1:hover{
+    background: #fff;
+    color: #5490F5;
+}
+.vision_btn2{
+    background: #09A15C;
+    color: #fff;
+}
+.vision_btn2:hover{
+    background: #fff;
+    color: #09A15C;
+}
+.vision_btn3{
+    background: #FFC239;
+    color: #fff;
+}
+.vision_btn3:hover{
+    background: #fff;
+    color: #FFC239;
+}
